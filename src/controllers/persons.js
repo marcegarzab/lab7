@@ -23,7 +23,7 @@ const getPersons = function(req, res){
 // 3)Read (get) a specific person
 const getPerson = function(req, res){
 	_id = req.params.id
-	Person.findById(_id).then(function(Person){
+	Person.findById(_id).then(function(person){
 		if(!person){
 			return res.send({error: 'Person not found'})
 		}
@@ -75,49 +75,3 @@ module.exports = {
 	updatePerson,
 	deletePerson
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
