@@ -45,7 +45,7 @@ const updatePerson = function(req, res){
 			error: 'Invalid update, only allowed to update: ' + allowedUpdates
 		})
 	}
-	Person.findByIdAndUpdate(_id, req.body).then(function(Person){
+	Person.findByIdAndUpdate(_id, req.body).then(function(person){
 		if(!person){
 			return res.status(404).send({})
 		}
