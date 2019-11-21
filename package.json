@@ -18,6 +18,7 @@
   "homepage": "https://github.com/marcegarzab/lab7#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mongoose": "^5.7.12",
     "request": "^2.88.0"
   }
 }

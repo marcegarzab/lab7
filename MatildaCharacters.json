@@ -1,0 +1,38 @@
+//ejemplos completos
+{
+  "name": "Matilda Wormwood",
+  "age": 4,
+  "occupation": "student",
+  "characteristics": ["red bow", "books", "telekinesis", "intelligent"],
+  "friends": ["Lavender", "Miss Honey", "Fred"],
+  "father": "Mr Wormwood",
+  "mother": "Mrs Wormood",
+  "playedBy": "Mara Wilson"
+},
+{
+  "name": "Miss Honey",
+  "age": 30,
+  "occupation": "teacher",
+  "characteristics": ["math", "sweet", "shy"],
+  "friends": ["Matilda", "Amanda Thripp"],
+  "father": "Magnus",
+  "mother": "unknown",
+  "playedBy": "Embeth Davidtz"
+},
+{
+  "name": "Miss Trunchbull",
+  "age": 30,
+  "occupation": "headmistress",
+  "characteristics": ["fearsome", "cold hearted", "unfair"],
+  "friends": ["none"],
+  "father": "Magnus",
+  "mother": "unknown",
+  "playedBy": "Pam Ferris"
+}
+
+//para update 
+{
+"name": "Miss Sweet Honey",
+"father": "FalseFather",
+"mother": "FalseMother"
+}

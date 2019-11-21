@@ -1,10 +1,11 @@
 
 const mongoose = require('mongoose')
-const connectionURL = ''//lo saco de mongo
+const connectionURL = 'mongodb+srv://admin:admin@marcelacluster-qiczh.mongodb.net/test?retryWrites=true&w=majority'
 
 mongoose.connect(connectionURL, {
 	useNewUrlParser: true,
 	useCreateIndex: true, 
-	useUnifiedTopology: true
+	useUnifiedTopology: true,
+	useFindAndModify: false
 })
 
